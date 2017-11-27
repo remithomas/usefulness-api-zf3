@@ -36,8 +36,8 @@
     },
     "extra": [],
     "scripts": {
-        "cs-check": "phpcs",
-        "cs-fix": "phpcbf",
+        "cs-check": "./vendor/bin/phpcs",
+        "cs-fix": "./vendor/bin/phpcbf",
         "development-disable": "zf-development-mode disable",
         "development-enable": "zf-development-mode enable",
         "development-status": "zf-development-mode status",
