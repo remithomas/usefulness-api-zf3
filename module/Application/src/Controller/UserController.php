@@ -5,9 +5,9 @@ namespace Application\Controller;
 use Zend\Mvc\Controller\AbstractActionController;
 use Zend\View\Model\JsonModel;
 
-class IndexController extends AbstractActionController
+class UserController extends AbstractActionController
 {
-    public function indexAction()
+    public function meAction()
     {
         return new JsonModel([
             'success' => true

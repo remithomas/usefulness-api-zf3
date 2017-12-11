@@ -17,7 +17,7 @@ This is a [Usefulness API](https://github.com/remithomas/usefulness-apis), using
 # todo
 ```
 
-##Starting App
+## Starting App
 
 ```bash
 composer serve
@@ -42,6 +42,7 @@ composer cover
 ## Urls
 
 - `/` basic page
+- `/me` myself page
 
 ## Contributions
 
@@ -49,4 +50,5 @@ Don't hesitate to submit issues, comments and pull request. This has been develo
 
 ## ToDO / Plans
 
+- [ ] Add protected (user: me) page
 - [ ] Add error (default, 404) as a JSON view
