@@ -21,7 +21,7 @@ before_script:
   - composer install --prefer-source --no-interaction --dev
 
 script:
-  - cs-check
+  - ./vendor/bin/phpcs
   - ./vendor/bin/phpunit --coverage-clover build/logs/clover.xml
 
 after_success:
