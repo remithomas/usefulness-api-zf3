@@ -7,6 +7,46 @@ This is a [Usefulness API](https://github.com/remithomas/usefulness-apis), using
 
 - [Zend Framework 3](https://framework.zend.com/learn)
 
+## Requirements
+
+- Php 7.1
+
+## Environements variables
+
+```yml
+# todo
+```
+
+##Starting App
+
+```bash
+composer serve
+```
+
+## Code coverage
+
+How to config. Using [coveralls.io](https://coveralls.io), create a file named .coveralls.yml with your repo_token
+
+```yml
+service_name: travis-ci
+coverage_clover: clover.xml
+json_path: coveralls-upload.json
+```
+
+How to execute
+
+```bash
+composer cover
+```
+
+## Urls
+
+- `/` basic page
+
+## Contributions
+
+Don't hesitate to submit issues, comments and pull request. This has been developped in TDD.
+
 ## ToDO / Plans
 
 - [ ] Add error (default, 404) as a JSON view
